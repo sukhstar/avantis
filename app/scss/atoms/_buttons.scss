@@ -1,0 +1,57 @@
+.btn {
+	color: 																	$color-gamma;
+	font-size: 															$btn-font-size;
+
+
+	&--alpha {
+		background-color: 										$color-alpha;
+		border: 															$btn-alpha-border;
+
+		&:hover {
+			background-color: 									$color-gamma;
+			border: 														$btn-alpha-hover-border;
+			color: 															$color-alpha;
+		}
+
+		&:focus {
+			-webkit-box-shadow: 								none;
+			-moz-box-shadow: 										none;
+			box-shadow: 												none;
+		}
+
+		&:hover:active {
+			@extend 														.btn--alpha:focus;
+		}
+
+		
+	}
+
+	&--beta {
+		background-color: 										$color-gamma;
+		border: 															$btn-beta-border;
+		color: 																$color-alpha;
+
+		&:hover {
+			background-color: 									$color-alpha;
+			border: 														$btn-beta-hover-border;
+			color: 															$color-gamma;
+		}
+
+		&:focus {
+			-webkit-box-shadow: 								none;
+			-moz-box-shadow: 										none;
+			box-shadow: 												none;
+		}
+
+		&:hover:active {
+			-webkit-box-shadow: 								none;
+			-moz-box-shadow: 										none;
+			box-shadow: 												none;
+		}
+
+		&:hover:active {
+			@extend															.btn--beta:focus;
+		}
+	}
+}
+

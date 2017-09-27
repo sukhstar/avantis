@@ -2,21 +2,28 @@
 //
 @import 'bootstrapV4/scss/bootstrap';
 
+//fontAwesome
+//
+
+@import '../scss/fontAwesome/font-awesome';
+
 //
 //custom cs
 //
 
 //utilities
 
-@import 'utilities/variables';
-@import 'utilities/reset';
+@import 'utilities/_variables';
+@import 'utilities/_reset';
 
 //atoms
 //
 
-@import 'atoms/typography';
-@import 'atoms/buttons';
-@import 'atoms/links';
+@import 'atoms/_buttons';
+@import 'atoms/_inputs';
+@import 'atoms/_links';
+@import 'atoms/_typography';
+
 
 //molecules
 //
