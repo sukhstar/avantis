@@ -19,6 +19,15 @@ $p-font-size:					14px;
 $btn-font-size:					14px;
 $link-font-size:				14px;
 $input-font-size:				14px;
+$footer-font-size:				12px;
+$icon-font-size:				24px;
+
+//divider
+//
+
+$divider-width:					75px;
+$divider-height:				0.1px;
+$divider-border-top: 			1px solid $color-alpha;
 
 //buttons
 //
@@ -28,6 +37,28 @@ $btn-alpha-hover-border:		1.3px solid $color-alpha;
 
 $btn-beta-border:				1.3px solid $color-alpha;
 $btn-beta-hover-border:			1.3px solid $color-alpha;
+
+//map
+//
+
+$map-height:					300px;
+$map-width:						300px;
+
+//
+//molecules
+//
+
+//header
+//
+
+$header-brand-h1-margin: 		15px auto auto auto;
+
+//navbar
+//
+
+$navbar-wrapper-margin:			auto;
+
+$navbar-link-margin:			auto 20px;
 
 
 

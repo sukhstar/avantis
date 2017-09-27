@@ -1,0 +1,23 @@
+.footer {
+	color:			$color-gamma;
+	font-size:		$footer-font-size;
+	//height:			50px;
+	margin:		10px 0px;
+
+	&--wrapper {
+		background-color: $color-alpha;
+		min-height: 50px;
+	}
+
+	&__p {
+		margin: auto;
+	}
+
+	&__icon {
+		color: $color-gamma;
+
+		&--wrapper {
+			margin-left: 0px;
+		}
+	}
+}

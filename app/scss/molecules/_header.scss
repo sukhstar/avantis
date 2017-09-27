@@ -1,0 +1,13 @@
+.header {
+	background-color: $color-alpha;
+
+	&__brand {
+		margin: auto;
+
+		&__h1 {
+			color: $color-gamma;
+			margin: $header-brand-h1-margin;
+		}
+	}
+}
+

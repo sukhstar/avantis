@@ -20,13 +20,20 @@
 //
 
 @import 'atoms/_buttons';
+@import 'atoms/_divider';
+@import 'atoms/_icon';
 @import 'atoms/_inputs';
 @import 'atoms/_links';
+@import 'atoms/_map';
 @import 'atoms/_typography';
 
 
 //molecules
 //
+@import 'molecules/_block';
+@import 'molecules/_footer';
+@import 'molecules/_header';
+@import 'molecules/_navbar';
 
 //organisms
 //

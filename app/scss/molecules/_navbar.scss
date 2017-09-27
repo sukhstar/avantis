@@ -1,0 +1,20 @@
+.navbar {
+	
+	&--bg-custom {
+		background-color: $color-alpha;
+	}
+
+	&--wrapper {
+		margin: $navbar-wrapper-margin;
+	}
+
+	&--toggler {
+		margin: auto;
+	}
+
+	&--link {
+		margin: $navbar-link-margin;
+
+	}
+}
+

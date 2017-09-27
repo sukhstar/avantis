@@ -9001,6 +9001,16 @@ html {
       -moz-box-shadow: none;
       box-shadow: none; }
 
+.divider {
+  width: 75px;
+  height: divider-height;
+  background-color: #800080;
+  margin: 5px auto;
+  border-top: 1px solid #800080; }
+
+.icon {
+  font-size: 24px; }
+
 .input {
   font-size: 14px; }
   .input:focus {
@@ -9009,6 +9019,10 @@ html {
 .link {
   color: #403947;
   font-size: 14px; }
+
+#map {
+  height: 300px;
+  width: 300px; }
 
 h1,
 .h1 {
@@ -9025,5 +9039,39 @@ h6,
 p,
 .p {
   font-size: 14px; }
+
+.block {
+  text-align: center; }
+
+.footer {
+  color: #fff;
+  font-size: 12px;
+  margin: 10px 0px; }
+  .footer--wrapper {
+    background-color: #800080;
+    min-height: 50px; }
+  .footer__p {
+    margin: auto; }
+  .footer__icon {
+    color: #fff; }
+    .footer__icon--wrapper {
+      margin-left: 0px; }
+
+.header {
+  background-color: #800080; }
+  .header__brand {
+    margin: auto; }
+    .header__brand__h1 {
+      color: #fff;
+      margin: 15px auto auto auto; }
+
+.navbar--bg-custom {
+  background-color: #800080; }
+.navbar--wrapper {
+  margin: auto; }
+.navbar--toggler {
+  margin: auto; }
+.navbar--link {
+  margin: auto 20px; }
 
 /*# sourceMappingURL=main.css.map */
